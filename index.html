@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Palette Generator</title>
+</head>
+<body>
+  <div class="container">
+    <div class="title-content">
+      <h1>Palette Generator</h1>
+    </div>
+    <div class="colors-container">
+      <div class="color-card">
+        <div class="color" id="color1">
+
+        </div>
+        <div class="color-hexa">
+          <span id="span1">#fff</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color" id="color2">
+
+        </div>
+        <div class="color-hexa">
+          <span id="span2">#fff</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color" id="color3">
+
+        </div>
+        <div class="color-hexa">
+          <span id="span3">#fff</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color" id="color4">
+
+        </div>
+        <div class="color-hexa">
+          <span id="span4">#fff</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color" id="color5">
+
+        </div>
+        <div class="color-hexa">
+          <span id="span5">#fff</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color" id="color6">
+
+        </div>
+        <div class="color-hexa">
+          <span id="span6">#fff</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color" id="color7">
+
+        </div>
+        <div class="color-hexa">
+          <span id="span7">#fff</span>
+        </div>
+      </div>
+      <div class="color-card">
+        <div class="color" id="color8">
+
+        </div>
+        <div class="color-hexa">
+          <span id="span8">#fff</span>
+        </div>
+      </div>
+    </div>
+    <button onclick="generatePalette()">Generate</button>
+    <div class="registrer-container">
+      <input type="text" id="txtMyPalette" placeholder="Ej: My palette name."><br>
+      <button onclick="savePalette()">Save</button>
+    </div>
+  </div>
+  <div class="container">
+    <h1>My colors</h1>
+    <div class="my-palettes-container">
+    </div>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
